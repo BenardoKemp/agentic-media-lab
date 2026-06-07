@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: agentic_media_lab
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      ports: "5432:5432"
+
+  redis:
+    image: redis:7
+    ports: 
+      - "6379:6379"
+
+
+
+
+
