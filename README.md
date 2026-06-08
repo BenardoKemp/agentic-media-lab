@@ -158,9 +158,9 @@ This structure will evolve as the system grows.
 
 ## AI Frameworks
 
-* LangGraph
-* OpenAI SDK
-* Pydantic AI
+* [LangGraph](https://www.langchain.com/langgraph)
+* [OpenAI SDK](https://developers.openai.com/api/docs/libraries)
+* [Pydantic AI](https://pydantic.dev/)
 
 ## Backend
 
