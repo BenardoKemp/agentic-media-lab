@@ -1,6 +1,10 @@
 import feedparser
 
 from feeds import RSS_FEEDS
+from normalize import NewsArticle
+
+validated_articles = []
+
 
 def fetch_rss_articles():
     
@@ -21,9 +25,19 @@ def fetch_rss_articles():
             })
     return articles
 
+
+
 if __name__ == "__main__": 
+    
     articles = fetch_rss_articles() 
 
     for article in articles[:5]: 
-        
         print(article)
+
+    for article in articles:
+        try:
+            validated = NewsArticle(**article)
+            validated_articles.append(validated)
+        except Exception as e:
+            print(f"Validation failed: {e}")    
+
