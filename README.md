@@ -409,7 +409,7 @@ This repository is the technical foundation of that journey.
 
 Project website:
 
-AgenticMediaLab.com
+[AgenticMediaLab.com](https://agenticmedialab.com/)
 
 The website documents:
 
