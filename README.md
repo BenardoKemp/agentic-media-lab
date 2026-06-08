@@ -164,27 +164,27 @@ This structure will evolve as the system grows.
 
 ## Backend
 
-* FastAPI
-* PostgreSQL
-* Redis
+* [FastAPI](https://fastapi.tiangolo.com/)
+* [PostgreSQL](https://www.postgresql.org/)
+* [Redis](https://pypi.org/project/redis/)
 
 ## Crawling & Ingestion
 
-* Playwright
-* BeautifulSoup
-* feedparser
+* [Playwright](https://playwright.dev/)
+* [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
+* [feedparser](https://pypi.org/project/feedparser/)
 
 ## Infrastructure
 
-* Docker
-* Celery
-* APScheduler
+* [Docker](https://www.docker.com/)
+* [Celery](https://pypi.org/project/celery/)
+* [APScheduler](https://pypi.org/project/APScheduler/)
 
 ## Observability
 
-* Prometheus
-* Grafana
-* OpenTelemetry
+* [Prometheus](https://prometheus.io/download/)
+* [Grafana](https://grafana.com/)
+* [OpenTelemetry](https://opentelemetry.io/)
 
 ---
 
