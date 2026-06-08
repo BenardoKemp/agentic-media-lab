@@ -2,7 +2,7 @@
 
 ## Building Autonomous AI Media Systems in Public
 
-Agentic Media Lab is an open engineering project focused on designing, building, and documenting autonomous AI media systems.
+[Agentic Media Lab](https://agenticmedialab.com/) is an open engineering project focused on designing, building, and documenting autonomous AI media systems.
 
 This repository contains the infrastructure, workflows, experiments, and orchestration logic behind:
 
